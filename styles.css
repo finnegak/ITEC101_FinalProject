@@ -1,25 +1,38 @@
+/*
+#BFA18F light brown
+#59473C brown
+#284259 dark blue
+#6A8FA6 light blue
+#3F688C blue
+*/
 *{
     max-width:100%;
     box-sizing: border-box;
+}
+body{
+    background-color:#F0E6CD;
 }
 main{
     font-family: sans-serif;
     margin-left: auto;
     margin-right: auto;
     width:1000px;
-    background-color:powderblue;
+    background-color:#6A8FA6;
+    color:white;
 }
 header{
     padding: 20px;
     padding-left:0px;
-    color:white;
+    
     text-align: center;
-    background-color:dodgerblue;
+    background-color:#3F688C;
 }
 #sectionName{
     background-color: white;
     font-size: 15pt;
     text-align: center;
+    color:#3F688C;
+    padding:5px;
 }
 .list{
     text-align: center;
@@ -28,12 +41,13 @@ header{
 }
 .list li {
     display:inline;
-    background-color:powderblue;
+    background-color:#F0E6CD;
     padding: 3px;
-    border: dodgerblue 2px solid;
+    border: #3F688C 2px solid;
 }
 .list a{
     text-decoration:none;
+    color:#284259;
 }
 .list a:hover{
     text-decoration:underline;
@@ -41,7 +55,8 @@ header{
 footer {
     text-align:center;
     padding:20px;
-    background-color: dodgerblue;
+    background-color: #3F688C;
+    color:white;
 }
 @media screen and (max-width: 720px) {
     nav {
@@ -59,14 +74,12 @@ footer {
         background-color:#844247;
     }
 }
-
-
-
 .col-container{
     flex-direction: row;
     display: flex;
     align-items: stretch;
     padding: 20px;
+    color: white;
 }
 
 .column{
@@ -90,8 +103,20 @@ footer {
 
 input{
     margin-bottom:10px;
-    }
+}
 
 #current{
-    color: red;
+    font-weight:bold;
+    font-size:11pt;
+    text-decoration:none;
+}
+span{
+    font-weight:bold;
+}
+
+section section h3 {
+    color: white;
+}
+section a{
+    color:white;
 }
